@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendario Laboral 2027</title>
+    <style>
+        :root {
+            --rojo-vodafone: #E60000;
+            --azul-nomina: #0070C0;
+            --amarillo-empresa: #FFC000;
+            --gris-fondo: #f4f4f4;
+            --negro-texto: #1a1a1a;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 10px;
+            background-color: var(--gris-fondo);
+            color: var(--negro-texto);
+        }
+
+        /* Cabecera y Selector */
+        .top-bar {
+            background-color: white;
+            padding: 15px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 4px solid var(--rojo-vodafone);
+            margin-bottom: 20px;
+        }
+
+        /* Recreación del Logo CCOO Servicios a la Ciudadanía */
+        .header-logo-container {
+            display: flex;
+            flex-direction: column;
+        }
+        .logo-ccoo-main {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .ccoo-box {
+            font-size: 28px;
+            font-weight: 900;
+            color: var(--rojo-vodafone);
+            letter-spacing: 1px;
+            display: flex;
+            gap: 2px;
+        }
+        .ccoo-box span {
+            border: 3px solid var(--rojo-vodafone);
+            padding: 0 4px;
+            line-height: 1;
+        }
+        .servicios-text {
+            font-size: 18px;
+            font-weight: bold;
+            color: black;
+            line-height: 0.9;
+            text-transform: lowercase;
+        }
+        .servicios-text small {
+            font-size: 11px;
+            display: block;
+            color: #555;
+        }
+        .vodafone-subtext {
+            font-size: 12px;
+            font-weight: bold;
+            color: var(--rojo-vodafone);
+            margin-top: 4px;
+        }
+
+        .selector {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            font-weight: bold;
+        }
+
+        select {
+            padding: 8px 12px;
+            font-size: 16px;
+            border: 2px solid var(--rojo-vodafone);
+            border-radius: 4px;
+            cursor: pointer;
+            outline: none;
+        }
+
+        /* Banner de Título */
+        .main-title {
+            background-color: var(--rojo-vodafone);
+            color: white;
+            text-align: center;
+            padding: 10px;
+            font-size: 22px;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+        }
+
+        /* Contenedor Principal (Grid) */
+        .layout-container {
+            display: grid;
+            grid-template-columns: 3fr 1fr;
+            gap: 20px;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        /* Calendario de 12 Meses */
+        .calendar-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap:
